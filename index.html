@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AngularJS Google Static Maps Directive</title>
+        <link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/united/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                margin-top: 1em;
+            }
+        </style>
+    </head>
+    <body class="container" ng-app="demo">
+        <div class="hero-unit">
+            <h1>angular-google-staticmaps</h1>
+
+            <p>A directive to embed Google Static Maps in AngularJS through a simple tag.</p>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <h2>Getting Started</h2>
+                <ol>
+                    <li>Install with bower: <code>bower install --save angular-google-staticmaps</code></li>
+                    <li>Include <code>angular-google-staticmaps.js</code>.</li>
+                    <li>Include <code>wu.staticGmap</code> in your module dependencies.</li>
+                    <li>Use the <code>static-gmap</code> directive.</li>
+                </ol>
+
+                If you hate proper package management, you can also
+                directly download
+                <a href="./angular-google-staticmaps.js">angular-google-staticmaps.js</a> or
+                <a href="./angular-google-staticmaps.min.js">angular-staticmaps.min.js</a>.
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="span12">
+                <h2>In Action</h2>
+                <static-gmap
+                    size="640x200"
+                    sensor="false"
+                    zoom="14"
+                    markers="{ color: 'red', label: 'X', coords: [61.133789, 10.401121] }">
+                </static-gmap>
+
+                <h2>Code</h2>
+                <pre ng-non-bindable>&lt;static-gmap
+    size="640x200"
+    sensor="false"
+    zoom="14"
+    markers="{ color: 'red', label: 'X', coords: [61.133789, 10.401121] }"&gt;
+&lt;/static-gmap&gt;</pre>
+            </div>
+        </div>
+
+        <a href="https://github.com/passy/angular-google-staticmaps"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <script src="angular-google-staticmaps.js"></script>
+
+        <script>
+            angular.module('demo', ['wu.staticGmap']);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "angular-google-staticmaps",
+  "description": "An AngularJS directive for Google Static Maps V2.",
+  "version": "0.0.1",
+  "main": "./angular-google-staticmaps.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src",
+    "*.min.js",
+    "*.conf.js",
+    "*.html",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.0.7"
+  }
+}

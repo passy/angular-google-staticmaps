@@ -2,7 +2,7 @@
 
 [Homepage](http://passy.github.io/angular-google-staticmaps)
 
-An [AngularJS](http://angularjs.org/) directive to work quickly insert [Static
+An [AngularJS](http://angularjs.org/) directive to quickly insert [Static
 Maps](https://developers.google.com/maps/documentation/staticmaps/).
 
 ## Usage

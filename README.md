@@ -1,4 +1,4 @@
-# Angular Google Static Maps Directive [![Build Status](https://travis-ci.org/passy/angular-google-staticmaps.png)](https://travis-ci.org/passy/angular-google-staticmaps)
+# Angular Google Static Maps Directive [![Build Status](https://travis-ci.org/passy/angular-google-staticmaps.png)](https://travis-ci.org/passy/angular-google-staticmaps) [![Dependency Status](https://gemnasium.com/passy/angular-google-staticmaps.png)](https://gemnasium.com/passy/angular-google-staticmaps)
 
 [Homepage](http://passy.github.io/angular-google-staticmaps)
 
